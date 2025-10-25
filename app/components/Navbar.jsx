@@ -17,7 +17,7 @@ const Navbar = () => {
       <div className='fixed top-0 right-0 w-11/12 -z-10 translate-y-[-80%]'></div>
       <nav className='w-full fixed top-0 left-0 px-5 lg:px-8 xl:px-[8%] py-3 flex items-center justify-between bg-white shadow-md z-50'>
         <a href="#top">
-          <Image src={assets.logo} className='w-24 cursor-pointer mr-14' alt=''/>
+          <Image src={assets.logo} className='w-28 cursor-pointer mr-14' alt=''/>
         </a>
 
         <ul className='hidden md:flex item-center gap-4 lg:gap-6 rounded-full px-12 py-3'>
