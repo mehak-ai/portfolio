@@ -1,25 +1,42 @@
 import React from 'react';
 import Image from 'next/image';
 import { assets } from '../../assets/assets';
+import { motion } from "motion/react"
 
 const Header = () => {
   return (
     <div className='w-11/12 mx-auto mt-24 mb-8 text-center flex flex-col items-center gap-4 md:gap-6'>
-      <div>
+      <motion.div
+        initial={{ scale: 0 }}
+        whileInView={{ scale: 1 }}
+        transition={{ duration: 0.8, type: 'spring', stiffness: 100 }}
+      >
         <Image src={assets.profile_img} alt='' className='w-24 rounded-full' />
-      </div>
+      </motion.div>
 
-      <h3 className='flex items-end gap-2 text-base md:text-lg mb-2 font-Ovo'>
+      <motion.h3 
+      initial={{ y: -20, opacity: 0 }}
+        whileInView={{ y: 0, opacity: 1 }}
+        transition={{ duration: 0.6, delay: 0.6}}
+      className='flex items-end gap-2 text-base md:text-lg mb-2 font-Ovo'>
         Hi I'm Mehak <Image src={assets.hand_icon} alt='' className='w-7' />
-      </h3>
+      </motion.h3>
 
-      <h1 className='text-lg sm:text-xl lg:text-2xl font-Ovo max-w-2xl'>
+      <motion.h1 
+      initial={{ y:-30, opacity: 0 }}
+        whileInView={{ y:0, opacity: 1 }}
+        transition={{ duration: 0.8, delay: 0.5 }}
+      className='text-lg sm:text-xl lg:text-2xl font-Ovo max-w-2xl'>
         aspiring web developer and data enthusiast based in Noida.
-      </h1>
+      </motion.h1>
 
-      <p className='max-w-xl mx-auto text-xs md:text-sm font-Ovo'>
+      <motion.p
+      initial={{ opacity: 0 }}
+        whileInView={{ y: 0, opacity: 1 }}
+        transition={{ duration: 0.6, delay: 0.7 }}
+       className='max-w-xl mx-auto text-xs md:text-sm font-Ovo'>
         I love creating meaningful, functional websites and exploring the world of data.
-      </p>
+      </motion.p>
 
       <div className='flex flex-wrap gap-3 mt-3'>
         <a 
@@ -30,7 +47,7 @@ const Header = () => {
         </a>
 
         <a 
-          href="/sample-resume.pdf" download
+          href="/MehakSharmaDataAnalytics.pdf" download
           className='px-4 py-2 border rounded-full border-gray-500 flex items-center gap-2 text-sm md:text-base'
         >
           my resume <Image src={assets.download_icon} alt='' className='w-3' />
