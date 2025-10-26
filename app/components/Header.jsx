@@ -22,13 +22,13 @@ const Header = () => {
         Hi I'm Mehak <Image src={assets.hand_icon} alt='' className='w-7' />
       </motion.h3>
 
-      <motion.h1 
+      <motion.h2 
       initial={{ y:-30, opacity: 0 }}
         whileInView={{ y:0, opacity: 1 }}
         transition={{ duration: 0.8, delay: 0.5 }}
-      className='text-lg sm:text-xl lg:text-2xl font-Ovo max-w-2xl'>
+      className='text-2xl sm:text-4xl lg:text-[50px] font-Ovo'>
         aspiring web developer and data enthusiast based in Noida.
-      </motion.h1>
+      </motion.h2>
 
       <motion.p
       initial={{ opacity: 0 }}

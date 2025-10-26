@@ -17,7 +17,7 @@ const Work = () => {
         {/* Card 1 */}
         <div className='relative rounded-xl overflow-hidden h-64 group'>
           <Image
-            src={assets.user_image}
+            src={assets.logo_dark}
             alt='Project 1'
             layout='fill'
             objectFit='cover'
@@ -25,8 +25,8 @@ const Work = () => {
           />
           <div className='bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between shadow-md duration-500 group-hover:bottom-7'>
             <div>
-              <h2 className='text-xl font-semibold text-gray-800'>Frontend Project</h2>
-              <p className='text-sm text-gray-600'>Web Design</p>
+              <h2 className='text-xl font-semibold text-gray-800'>Customer Churn</h2>
+              <p className='text-sm text-gray-600'>Data Analytics and Machine Learning</p>
             </div>
             <div className='border rounded-full border-black w-9
             aspect-square flex items-center justify-center
@@ -39,7 +39,7 @@ const Work = () => {
         {/* Card 2 */}
         <div className='relative rounded-xl overflow-hidden h-64 group'>
           <Image
-            src={assets.project_icon}
+            src={assets.logo_dark}
             alt='Project 2'
             layout='fill'
             objectFit='cover'
@@ -47,8 +47,8 @@ const Work = () => {
           />
           <div className='bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between shadow-md duration-500 group-hover:bottom-7'>
             <div>
-              <h2 className='text-xl font-semibold text-gray-800'>Geo App</h2>
-              <p className='text-sm text-gray-600'>Mobile App</p>
+              <h2 className='text-xl font-semibold text-gray-800'>HR Presence Insights</h2>
+              <p className='text-sm text-gray-600'>Data Analytics</p>
             </div>
             <div className='border rounded-full border-black w-9
             aspect-square flex items-center justify-center
@@ -61,7 +61,7 @@ const Work = () => {
         {/* Card 3 */}
         <div className='relative rounded-xl overflow-hidden h-64 group'>
           <Image
-            src={assets.code_icon}
+            src={assets.logo_dark}
             alt='Project 3'
             layout='fill'
             objectFit='cover'
@@ -69,8 +69,8 @@ const Work = () => {
           />
           <div className='bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between shadow-md duration-500 group-hover:bottom-7'>
             <div>
-              <h2 className='text-xl font-semibold text-gray-800'>Photography Site</h2>
-              <p className='text-sm text-gray-600'>Web Design</p>
+              <h2 className='text-xl font-semibold text-gray-800'>BookStore App</h2>
+              <p className='text-sm text-gray-600'>MERN FullStack</p>
             </div>
             <div className='border rounded-full border-black w-9
             aspect-square flex items-center justify-center
@@ -81,9 +81,9 @@ const Work = () => {
         </div>
 
         {/* Card 4 */}
-        <div className='relative rounded-xl overflow-hidden h-64 group'>
+        {/*<div className='relative rounded-xl overflow-hidden h-64 group'>
           <Image
-            src={assets.ui_icon}
+            src={assets.logo_dark}
             alt='Project 4'
             layout='fill'
             objectFit='cover'
@@ -100,7 +100,7 @@ const Work = () => {
               <Image src={assets.send_icon} alt='send icon' className='w-5' />
             </div>
           </div>
-        </div>
+        </div>*/}
 
       </div>
 
