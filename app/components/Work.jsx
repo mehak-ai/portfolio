@@ -30,7 +30,8 @@ const Work = () => {
             </div>
             <div className='border rounded-full border-black w-9
             aspect-square flex items-center justify-center
-            shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition'>
+            shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition'
+            onClick={() => window.open('https://github.com/mehak-ai/customer_churn', '_blank')}>
               <Image src={assets.send_icon} alt='send icon' className='w-5' />
             </div>
           </div>
@@ -52,7 +53,8 @@ const Work = () => {
             </div>
             <div className='border rounded-full border-black w-9
             aspect-square flex items-center justify-center
-            shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition'>
+            shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition'
+            onClick={() => window.open('https://github.com/mehak-ai/HR_Presence_Analytics', '_blank')}>
               <Image src={assets.send_icon} alt='send icon' className='w-5' />
             </div>
           </div>
@@ -74,14 +76,15 @@ const Work = () => {
             </div>
             <div className='border rounded-full border-black w-9
             aspect-square flex items-center justify-center
-            shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition'>
+            shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition'
+            onClick={() => window.open('https://github.com/mehak-ai/bookstoreapppp', '_blank')}>
               <Image src={assets.send_icon} alt='send icon' className='w-5' />
             </div>
           </div>
         </div>
 
         {/* Card 4 */}
-        {/*<div className='relative rounded-xl overflow-hidden h-64 group'>
+       <div className='relative rounded-xl overflow-hidden h-64 group'>
           <Image
             src={assets.logo_dark}
             alt='Project 4'
@@ -96,11 +99,12 @@ const Work = () => {
             </div>
             <div className='border rounded-full border-black w-9
             aspect-square flex items-center justify-center
-            shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition'>
+            shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition'
+            onClick={() => window.open('https://github.com/mehak-ai/mockmate2025', '_blank')}>
               <Image src={assets.send_icon} alt='send icon' className='w-5' />
             </div>
           </div>
-        </div>*/}
+        </div>
 
       </div>
 

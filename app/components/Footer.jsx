@@ -5,8 +5,8 @@ import { assets } from '@/assets/assets'
 const Footer = () => {
   return (
     <div>
-        <div className='text-center'>
-            <div className='w-max flex items-center gap-2 max-auto'>
+        <div className='text-center mt-16'>
+            <div className='w-max flex items-center gap-2 mx-auto'>
                 <Image src={assets.mail_icon} alt='' className='w-6' />
                 mehaksharmastu@gmail.com
 
