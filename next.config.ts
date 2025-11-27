@@ -1,8 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   turbopack: {
-    root: __dirname,   // <--- This FIXES WRONG ROOT DETECTION
+    root: __dirname,   // 🔥 forces correct root
   },
+  distDir: ".next",     // 🔥 required for Vercel
 };
 
 export default nextConfig;
