@@ -1,0 +1,30 @@
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+  font-family: Outfit;
+}
+
+.font-Ovo {
+  font-family: 'Ovo', serif !important;
+}
+
+:root {
+  --lightHover: #fcf4ff;
+  --darkHover: #2a004a;
+  --darkTheme: #11001F;
+
+  --shadow-black: 4px 4px 0 #000;
+  --shadow-white: 4px 4px 0 #fff;
+}
+
+.shadow-black {
+  box-shadow: var(--shadow-black);
+}
+
+.shadow-white {
+  box-shadow: var(--shadow-white);
+}

@@ -1,0 +1,121 @@
+import { assets } from '@/assets/assets'
+import React from 'react'
+import Image from 'next/image'
+
+const Work = () => {
+  return (
+    <div id="work" className='w-full px-[12%] py-10 scroll-mt-20'>
+      <h4 className='text-center mb-2 text-lg font-Ovo'>My Portfolio</h4>
+      <h2 className='text-center text-5xl font-Ovo'>My latest work</h2>
+
+      <p className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo'>
+        Here are a few projects I've worked on recently.
+      </p>
+
+      <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6'>
+
+        {/* Card 1 */}
+        <div className='relative rounded-xl overflow-hidden h-64 group'>
+          <Image
+            src={assets.logo_dark}
+            alt='Project 1'
+            layout='fill'
+            objectFit='cover'
+            className='absolute inset-0 -z-10'
+          />
+          <div className='bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between shadow-md duration-500 group-hover:bottom-7'>
+            <div>
+              <h2 className='text-xl font-semibold text-gray-800'>Customer Churn</h2>
+              <p className='text-sm text-gray-600'>Data Analytics and Machine Learning</p>
+            </div>
+            <div className='border rounded-full border-black w-9
+            aspect-square flex items-center justify-center
+            shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition'
+            onClick={() => window.open('https://github.com/mehak-ai/customer_churn', '_blank')}>
+              <Image src={assets.send_icon} alt='send icon' className='w-5' />
+            </div>
+          </div>
+        </div>
+
+        {/* Card 2 */}
+        <div className='relative rounded-xl overflow-hidden h-64 group'>
+          <Image
+            src={assets.logo_dark}
+            alt='Project 2'
+            layout='fill'
+            objectFit='cover'
+            className='absolute inset-0 -z-10'
+          />
+          <div className='bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between shadow-md duration-500 group-hover:bottom-7'>
+            <div>
+              <h2 className='text-xl font-semibold text-gray-800'>HR Presence Insights</h2>
+              <p className='text-sm text-gray-600'>Data Analytics</p>
+            </div>
+            <div className='border rounded-full border-black w-9
+            aspect-square flex items-center justify-center
+            shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition'
+            onClick={() => window.open('https://github.com/mehak-ai/HR_Presence_Analytics', '_blank')}>
+              <Image src={assets.send_icon} alt='send icon' className='w-5' />
+            </div>
+          </div>
+        </div>
+
+        {/* Card 3 */}
+        <div className='relative rounded-xl overflow-hidden h-64 group'>
+          <Image
+            src={assets.logo_dark}
+            alt='Project 3'
+            layout='fill'
+            objectFit='cover'
+            className='absolute inset-0 -z-10'
+          />
+          <div className='bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between shadow-md duration-500 group-hover:bottom-7'>
+            <div>
+              <h2 className='text-xl font-semibold text-gray-800'>BookStore App</h2>
+              <p className='text-sm text-gray-600'>MERN FullStack</p>
+            </div>
+            <div className='border rounded-full border-black w-9
+            aspect-square flex items-center justify-center
+            shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition'
+            onClick={() => window.open('https://github.com/mehak-ai/bookstoreapppp', '_blank')}>
+              <Image src={assets.send_icon} alt='send icon' className='w-5' />
+            </div>
+          </div>
+        </div>
+
+        {/* Card 4 */}
+       <div className='relative rounded-xl overflow-hidden h-64 group'>
+          <Image
+            src={assets.logo_dark}
+            alt='Project 4'
+            layout='fill'
+            objectFit='cover'
+            className='absolute inset-0 -z-10'
+          />
+          <div className='bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between shadow-md duration-500 group-hover:bottom-7'>
+            <div>
+              <h2 className='text-xl font-semibold text-gray-800'>UI/UX Designing</h2>
+              <p className='text-sm text-gray-600'>UI/UX Design</p>
+            </div>
+            <div className='border rounded-full border-black w-9
+            aspect-square flex items-center justify-center
+            shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition'
+            onClick={() => window.open('https://github.com/mehak-ai/mockmate2025', '_blank')}>
+              <Image src={assets.send_icon} alt='send icon' className='w-5' />
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      {/*<a href="" className='w-max flex items-center jsutify-center gap-2
+      text-gray-700 border-[0.5px] border-gray-700 rounded-full py-3 px-10 mx-auto
+      my-20 hover:bg-lightHover duration-500'>
+        Show more <Image src={assets.right_arrow_bold} alt='down arrow' className='w-4' />
+      </a>
+    */}
+    </div>
+  )
+}
+
+export default Work
