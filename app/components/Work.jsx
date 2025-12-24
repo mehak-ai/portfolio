@@ -48,13 +48,13 @@ const Work = () => {
           />
           <div className='bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between shadow-md duration-500 group-hover:bottom-7'>
             <div>
-              <h2 className='text-xl font-semibold text-gray-800'>HR Presence Insights</h2>
-              <p className='text-sm text-gray-600'>Data Analytics</p>
+              <h2 className='text-xl font-semibold text-gray-800'>Movie Reccomender</h2>
+              <p className='text-sm text-gray-600'>Machine Learning</p>
             </div>
             <div className='border rounded-full border-black w-9
             aspect-square flex items-center justify-center
             shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition'
-            onClick={() => window.open('https://github.com/mehak-ai/HR_Presence_Analytics', '_blank')}>
+            onClick={() => window.open('https://github.com/mehak-ai/Movie-recommender-system-main', '_blank')}>
               <Image src={assets.send_icon} alt='send icon' className='w-5' />
             </div>
           </div>
@@ -71,13 +71,13 @@ const Work = () => {
           />
           <div className='bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between shadow-md duration-500 group-hover:bottom-7'>
             <div>
-              <h2 className='text-xl font-semibold text-gray-800'>BookStore App</h2>
-              <p className='text-sm text-gray-600'>MERN FullStack</p>
+              <h2 className='text-xl font-semibold text-gray-800'>MockMate</h2>
+              <p className='text-sm text-gray-600'>Full-Stack AI Application</p>
             </div>
             <div className='border rounded-full border-black w-9
             aspect-square flex items-center justify-center
             shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition'
-            onClick={() => window.open('https://github.com/mehak-ai/bookstoreapppp', '_blank')}>
+            onClick={() => window.open('https://github.com/mehak-ai/mockmate2025', '_blank')}>
               <Image src={assets.send_icon} alt='send icon' className='w-5' />
             </div>
           </div>
@@ -94,13 +94,13 @@ const Work = () => {
           />
           <div className='bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between shadow-md duration-500 group-hover:bottom-7'>
             <div>
-              <h2 className='text-xl font-semibold text-gray-800'>UI/UX Designing</h2>
-              <p className='text-sm text-gray-600'>UI/UX Design</p>
+              <h2 className='text-xl font-semibold text-gray-800'>Portfolio</h2>
+              <p className='text-sm text-gray-600'>Next.js Web App</p>
             </div>
             <div className='border rounded-full border-black w-9
             aspect-square flex items-center justify-center
             shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition'
-            onClick={() => window.open('https://github.com/mehak-ai/mockmate2025', '_blank')}>
+            onClick={() => window.open('https://github.com/mehak-ai/portfolio', '_blank')}>
               <Image src={assets.send_icon} alt='send icon' className='w-5' />
             </div>
           </div>
