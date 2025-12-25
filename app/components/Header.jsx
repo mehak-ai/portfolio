@@ -47,7 +47,7 @@ const Header = () => {
         </a>
 
         <a 
-          href="/MehakSharmaDataAnalytics.pdf" download
+          href="/MehakSharmaResume.pdf" download
           className='px-4 py-2 border rounded-full border-gray-500 flex items-center gap-2 text-sm md:text-base'
         >
           my resume <Image src={assets.download_icon} alt='' className='w-3' />
